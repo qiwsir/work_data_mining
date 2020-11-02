@@ -17,7 +17,7 @@ if not num_input.isdigit() :    #利用isdigit()判断输入内容是否为正�
     num_input = input ("Please input positive number :") 
 fib_num = int(num_input)    #将字符串转化为整数
 fib_list = []   #创建空列表
-def fibonacci_generator(n) : 
+def fibonacci_generator(n) :   ## 不用设置参数n，是否可行？
     a ,b  = 1 , 1
     i=1 
     while i <= n : 
